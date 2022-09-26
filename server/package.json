@@ -1,0 +1,27 @@
+{
+  "name": "grpc_test_server",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@grpc/grpc-js": "^0.3.6",
+    "@grpc/proto-loader": "^0.7.3",
+    "google-protobuf": "^3.7.1",
+    "grpc": "^1.19.0",
+    "grpc-web": "^1.0.4"
+  },
+  "scripts": {
+    "start:dev": "node ./server.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
