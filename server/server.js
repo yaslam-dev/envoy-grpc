@@ -17,8 +17,7 @@ var protoDescriptor = grpc.loadPackageDefinition(packageDefinition);
 var server = new grpc.Server();
 
 const pingPongHandler = function (call, callback) {
-  console.log("Request");
-  console.log("here");
+  console.log("Hello");
   return callback(null, { pong: "Pong" });
 };
 
