@@ -10,7 +10,7 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "@grpc/grpc-js": "^0.3.6",
+    "@grpc/grpc-js": "^1.8.8",
     "google-protobuf": "^3.7.1",
     "grpc": "^1.19.0",
     "grpc-web": "^1.0.4"    
